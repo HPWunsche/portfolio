@@ -1,0 +1,85 @@
+/* Tous les tyles communs */
+
+h1, h2{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(27, 79, 235);
+    font-weight: bold;
+}
+
+h1{
+    font-size: 4em;
+}
+
+h2{
+    font-size: 2.5em;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-indent: 30px;
+    line-height: 20px;
+}
+
+/* Présentation */
+
+.pr2-presentation p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-indent: 30px;
+    line-height: 20px;
+    width: 75%;
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/* SCREENSHOTS */
+
+.pr2-screenshots-img img{
+   width: 100px;
+   height: 150px;
+   margin-left: 10%;
+   margin-bottom: 10%; 
+   border-radius: 10px;
+}
+
+.pr2-screenshots-img{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin-left: 22%;
+    margin-right: 10%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+/* DESCRIPTION */
+
+/* Content 1*/
+
+#pr2-img1 img, #pr2-img2 img, 
+#pr2-img3 img, #pr2-img4 img,
+#pr2-img5 img, #pr2-img6 img,
+#pr2-img7 img, #pr2-img8 img{
+    width: 400px;
+    height: 800px;
+    border-radius: 10px;
+}
+
+#pr2-tx1 p, #pr2-tx2 p, #pr2-tx3 p, #pr2-tx4 p{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 20%;
+}
+
+.pr2-description1, .pr2-description2, .pr2-description3, .pr2-description4{
+    display: inline-flex;
+    flex-direction: row;
+    margin-left: 2.5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}

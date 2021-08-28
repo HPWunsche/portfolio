@@ -1,0 +1,107 @@
+*{
+    background-color: rgb(222, 239, 245);
+}
+
+h1{
+    font-family: 'Heebo', sans-serif;
+    font-size: 3.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(30, 30, 207);
+}
+
+h2{
+    font-family: 'Heebo', sans-serif;
+    font-size: 2.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(30, 30, 207);
+    margin-top: 5%;
+}
+
+h3{
+    font-family: 'Heebo', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(30, 30, 207);
+    margin-top: 5%;
+}
+/* Présentation */
+
+#pr4-presentation-tx p{
+    text-indent: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 25%;
+    line-height: 20px;
+}
+
+.pr4-presentation-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+#pr4-presentation-img1 img, #pr4-presentation-img2 img{
+    border-radius: 10px;
+}
+
+/* Description */
+
+.screenshots_ide{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-left: 20%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+
+/* IDE */
+
+.ide-content p, .ide1-content p, .ide2-content p, .ide3-content p{
+    text-indent: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    width: 45%;
+    margin-right: 15%;
+    margin-top: 10%;
+    line-height: 20px;
+
+}
+
+.ide-content, .ide1-content, .ide2-content, .ide3-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+
+#ide-content-img img, #ide1-content-img img, #ide2-content-img img, #ide3-content-img img{
+    border-radius: 10px;
+}
+
+/* Footer */
+
+footer p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+

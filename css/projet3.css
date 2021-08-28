@@ -1,0 +1,63 @@
+
+/* STYLES COMMUNS */
+
+h1, h2{
+    font-family: 'Sansita Swashed', cursive;
+    text-align: center;
+    text-transform: uppercase;
+    color: royalblue;
+    font-weight: bold;
+}
+
+h1{
+    font-size: 4em;
+}
+
+h2{
+    font-size: 3em;
+}
+
+
+/* Présentation */
+
+.pr3-presentation, .summary{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.pr3-presentation p, .summary p{
+    font-family: 'Playfair Display', serif, Verdana;
+    font-size: 14px;
+    text-indent: 30px;
+    margin-top: 10%;
+}
+
+/* SCREENSHOT */
+
+#pr3-screenshot{
+    margin-left: 12.5%;
+    margin-top: 5%;
+}
+
+#pr3-screenshot img{
+    width: 150vh;
+}
+
+/* SUMMARY */
+
+/* FOOTER */
+
+footer p{
+    font-family: 'Playfair Display', serif, Verdana;
+    font-size: 14px;
+    text-indent: 20px;
+    text-align: center;
+}
+
+footer{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: rgb(166, 166, 243);
+}
